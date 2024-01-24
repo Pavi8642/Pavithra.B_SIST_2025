@@ -50,7 +50,7 @@ import re
 import sys
 
 t = int(input().strip())
-for _ in range(t):S
+for _ in range(t):
     n = int(input().strip())
     print(n * (n - 1) // 2)
     
